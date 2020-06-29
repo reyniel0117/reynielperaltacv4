@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(image/tech.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	height: 100vh;
+}
+
+.wrapper{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-position: left;
+	padding: 30px 0;
+	width: 400px;
+	background-size: cover; 
+}
+
+.wrapper .profile img{
+	height: 150px;
+	width: 150px;
+	border: 15px double #000;
+	border-radius: 100px;
+	position: relative;
+	top: 30px;
+	left: 125px;	
+}
+
+.wrapper .profile h2{
+	align-content: center;
+	position: relative;
+	top: 50px;
+	left: 25px;
+	text-transform: uppercase;
+	font-family: Roboto;
+}
+
+.wrapper .profile h5 a{
+	align-content: center;
+	position: relative;
+	top: 50px;
+	left: 45px;
+	font-weight: 500;
+	color: lime;
+}
+
+.wrapper .profile ul li{	
+	position: block;
+	text-align: center;
+	position: relative;
+	top: 70px;
+	padding: 30px;
+}
+
+.wrapper .profile ul li a{
+	color: #000;
+	font-weight: bolder;
+	font-family: Lucida Fax;
+	font-size: 25px;
+}
+
+.wrapper .profile li a:hover{
+	background-color: skyblue;
+	transition: .5s;
+	padding: 5px 20px 5px 20px;
+	transition-delay: 0.2s;
+
+}
+
+.wrapper .profile footer{
+	position: fixed;
+	top: 90%;
+	left: 55px;
+	font-weight: bold;
+	
+
+}
+
+.pokemon img{
+	position: fixed;
+	left: 65%;
+	top: 7%;
+}
+.pokemon h1{
+	position: fixed;
+	top: 80px;
+	left: 450px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-family: Times New Roman;
+	font-size: 65px;
+	text-decoration: underline;
+	text-shadow: #000 10px 0 5px;
+	background-image: url(image/tech.jpg);
+	color: silver;
+
+}
+
+#hero img{
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	height: 200px;
+	width: 250px;
+	border-radius: 15px;
+}	
+
+#oreh img{
+	position: fixed;
+	top: 65%;
+	left: 45%;
+	height: 200px;
+	width: 250px;
+}
+
+
+.prof .file img{
+	height: 250px;
+	width: 270px;
+	border: 10px solid gray;
+	border-radius: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+.prof .file h1{
+	text-align: center;
+	font-family: "Lucida calligraphy";
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.prof .file i{
+	margin-left: 20px;
+	font-family: "Lucida Console"
+}
+	
+.prof .file i a{
+	color: blue;
+}
+
+.prof .file p{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.prof .file h2{
+	text-align: center;
+	padding: 5px;
+	font-family: "Lucida calligraphy";
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.lime h2{
+	margin-top: 0;
+	width: auto;
+	background-image: linear-gradient(to top, aqua, lime);
+	padding: 20px;
+}
+
+.lime table tr td{
+	border: 10px solid #030036;
+	border-radius: 5px;
+	padding: 20px 10px 20px 10px;
+	position: relative;
+	top: 100px;
+	left: 40px;
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.aqua h2{
+	margin-top: 15%;
+	width: auto;
+	background-image: linear-gradient(to top, aqua, lime);
+	padding: 20px;
+}
+
+.aqua table tr td{
+	border: 10px solid #030036;
+	border-radius: 5px;
+	padding: 30px 20px 30px 20px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.green h2{
+	margin-top: 0;
+	text-align: center;
+	background-image: linear-gradient(to top, aqua, lime);
+	padding: 20px;
+}
+
+.green table tr td{
+	border: 10px solid #030036;
+	border-radius: 5px;
+	padding: 30px 40px 30px 40px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.or h2{
+	margin-top: 150px;
+	text-align: center;
+	background-image: linear-gradient(to top, aqua, lime);
+	padding: 20px;
+}
+
+.or table tr td{
+	border: 10px solid #030036;
+	border-radius: 5px;
+	padding: 30px 40px 30px 40px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.red h2{
+	margin-top: 150px;
+	text-align: center;
+	background-image: linear-gradient(to top, aqua, lime);
+	padding: 20px;
+}
+
+.red table tr td{
+	border: 10px solid #030036;
+	border-radius: 5px;
+	padding: 30px 40px 30px 40px;
+	position: relative;
+	top: 80px;
+	left: 300px;
+	color: gold;
+	font-weight: bold;
+	font-size: 20px;
+}
